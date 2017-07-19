@@ -13,3 +13,49 @@
  *= require_tree .
  *= require_self
  */
+h1
+{color: red;}
+ul{
+    list-style:none;
+}
+    
+body {
+    
+    background-image: url("http://static.highsnobiety.com/wp-content/uploads/2017/05/18151747/bape-a-bathing-ape-16-480x320.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:black;
+  
+    margin-top: 100px;
+
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+
+}
+
+.white{
+    color:white;
+}
+
+.yellow{
+    color:yellow;
+}
+
+.red{
+    color:red
+;
+}
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    color:yellow;
+}
+
+html{
+    font-family: "Arial", Times, serif;
+    text-align: left;
+}
