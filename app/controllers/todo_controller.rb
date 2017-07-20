@@ -3,6 +3,6 @@ class TodoController < ApplicationController
     end
     def show
         @todo_description="sleeping"
-        @todo_pomodoro_estimate=8
+        @todo_pomodoro_estimate=6
     end
 end
