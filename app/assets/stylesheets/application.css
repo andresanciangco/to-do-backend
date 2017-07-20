@@ -18,37 +18,29 @@ h1
 ul{
     list-style:none;
 }
-    
+
 body {
-    
-    background-image: url("http://static.highsnobiety.com/wp-content/uploads/2017/05/18151747/bape-a-bathing-ape-16-480x320.jpg");
-    background-position: center;
+    text-decoration:none;
     background-repeat: no-repeat;
-    background-color:black;
-  
-    margin-top: 100px;
-
-    padding-top: 50px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-
 }
 
 .white{
     color:white;
 }
 
+
 .yellow{
     color:yellow;
 }
 
 .red{
-    color:red
-;
+    color:red;
+    text-decoration: none;
 }
-a{
+
+abc{
     text-decoration:none;
+    background-repeat: no-repeat;
 }
 
 a:hover{
@@ -58,4 +50,21 @@ a:hover{
 html{
     font-family: "Arial", Times, serif;
     text-align: left;
+          background: url("http://static.highsnobiety.com/wp-content/uploads/2017/05/18151747/bape-a-bathing-ape-16-480x320.jpg") no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: 480px;
+          background-color: black;
+         
+}
+
+.abc {
+    margin-top: 150px;
+    margin-left: 10px;
+
+}
+
+h3 {
+    text-decoration: none;
 }
