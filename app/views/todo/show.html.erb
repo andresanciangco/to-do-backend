@@ -1,8 +1,11 @@
-<h1>Todo #<%=params[:id] %></h1>
 
+<h2 class="red">Todo # <%=@todo.id%></h2>
 <div class="abc"></div>
 <li style="list-style:none" class="red">
     <input type="checkbox">
     <%= @todo.description %>
     <%= @todo.pomodoro_estimate %>
 </li>
+<a href="/todo/edit/<%= @todo.id %>" class="button edit-todo-button">Edit</a>
+<a href="/todo/destroy/<%= @todo.id %>" class="button delete-todo-button">Delete</a>
+<a href="/" class="simple-link">Go back...</a>
